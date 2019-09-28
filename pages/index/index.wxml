@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view>
+  <view>
+    <navigator url="../Camera/Camera">
+      <button size="mini">照相机</button>
+    </navigator>
+  </view>
+  <view class="page-section">
+    <view class="weui-cells__title">实时获取输入值：{{inputValue}}</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  maxlength="10" bindinput="bindKeyInput" placeholder="输入同步到view中"/>
+      </view>
+    </view>
+  </view>
+  <view>
+    <button size="mini">查询</button>
+  </view>
+</view>
