@@ -14,9 +14,7 @@ Page({
   qryRuleForbidden() {
     this.setData({
       inputValue: "遮挡号牌，扣12分"
-    })
-  },
-  error(e) {
-    console.log(e.detail)
+    });
+    alert('asdfdsaf')
   }
 })
