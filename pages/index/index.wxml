@@ -14,6 +14,6 @@
     </view>
   </view>
   <view>
-    <button size="mini">查询</button>
+    <button size="mini" bindtap="qryRuleForbidden">查询</button>
   </view>
 </view>
